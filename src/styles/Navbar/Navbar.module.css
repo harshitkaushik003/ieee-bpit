@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap");
+.nav {
+  width: 80%;
+  height: 70px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  font-family: "Mitr", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav .logo {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav .logo img {
+  width: 30%;
+  height: 100%;
+}
+.nav .logo span {
+  font-size: 40px;
+  color: white;
+}
+.nav .content {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav .content .text {
+  margin-left: 70px;
+}
+.nav .content .text span {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+}/*# sourceMappingURL=Navbar.module.css.map */

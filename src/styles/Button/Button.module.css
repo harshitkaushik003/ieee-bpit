@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.btn {
+  margin: 10px;
+  min-width: 150px;
+  min-height: 50px;
+  border: none;
+  border: 1px solid black;
+  box-shadow: 4px 4px white;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn span {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px white;
+  transform: translateY(-4px);
+}/*# sourceMappingURL=Button.module.css.map */

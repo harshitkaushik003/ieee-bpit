@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Federo&display=swap");
 .header {
   display: flex;
   height: 500px;
@@ -7,6 +9,30 @@
 .header .left {
   width: 40%;
   height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header .left .content {
+  width: 70%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.header .left .content span.heading {
+  font-size: 100px;
+  color: white;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.header .left .content span.text {
+  color: white;
+  font-size: 30px;
+  font-family: "Federo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .header .right {
   width: 60%;
@@ -23,4 +49,35 @@
   top: -30px;
   border-radius: 40px;
   transform: rotate(324deg);
+  animation: onLoadSlant 1s ease-in-out 0s 1 none;
+}
+.header .right img {
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  z-index: 1;
+  top: 120px;
+  left: 137px;
+  border-radius: 20px;
+  transition: all 0.6s ease-in-out;
+}
+
+@keyframes onLoadImg {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes onLoadSlant {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(324deg);
+  }
 }/*# sourceMappingURL=Header.module.css.map */

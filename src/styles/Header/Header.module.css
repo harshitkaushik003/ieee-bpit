@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Federo&display=swap");
 .header {
   display: flex;
-  height: 500px;
+  height: 600px;
   width: 100vw;
-  background: linear-gradient(250deg, #617DE7, #319FEE);
+  background-color: #000042;
 }
 .header .left {
   width: 40%;

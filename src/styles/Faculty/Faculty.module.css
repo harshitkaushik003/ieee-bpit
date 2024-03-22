@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+.facultyDiv {
+  margin-bottom: 40px;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.facultyDiv .heading {
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.facultyDiv .heading span {
+  font-size: 50px;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #323EAE;
+}
+.facultyDiv .main {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.facultyDiv .main .imgDiv {
+  width: 300px;
+  height: 350px;
+  box-shadow: 4px 4px black;
+  position: relative;
+}
+.facultyDiv .main .imgDiv img.facultyImg {
+  width: 100%;
+  height: 100%;
+}
+.facultyDiv .main .imgDiv .text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: black;
+  visibility: hidden;
+  opacity: 0.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.facultyDiv .main .imgDiv .text span.des {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  margin: 30px;
+  color: white;
+}
+.facultyDiv .main .imgDiv:hover {
+  box-shadow: 4px 4px #323EAE;
+}
+.facultyDiv .main .imgDiv:hover .text {
+  visibility: visible;
+}/*# sourceMappingURL=Faculty.module.css.map */

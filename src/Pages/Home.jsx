@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import styles from '../styles/Home/Home.module.css';
 import About from '../components/About';
 import Sponsors from '../components/Sponsors';
+import Faculty from '../components/Faculty';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Header/>
       <About/>
       <Sponsors/>
+      <Faculty/>
     </div>
   )
 }

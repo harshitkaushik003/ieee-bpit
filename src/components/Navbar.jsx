@@ -19,7 +19,8 @@ const Navbar = () => {
         </div>
     </div>
     <Outlet/>
-    {/* <Footer/> */}
+
+    <Footer/>
     </>
     
   )

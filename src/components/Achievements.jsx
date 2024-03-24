@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../styles/Achievements/Achievements.module.css';
 import { awards } from '../app/data';
 import Card from './Card';
+
 const Achievements = () => {
   return (
     <div className={styles.mainBox}> 

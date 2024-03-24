@@ -81,4 +81,40 @@
   to {
     transform: rotate(324deg);
   }
+}
+@media screen and (max-width: 600px) {
+  .header {
+    overflow-x: hidden;
+    flex-direction: column;
+    height: 700px;
+  }
+  .header .left {
+    width: 100%;
+    height: 40%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .header .left .content span.heading {
+    font-size: 50px;
+  }
+  .header .left .content span.text {
+    font-size: 20px;
+  }
+  .header .right {
+    width: 100%;
+    height: 60%;
+  }
+  .header .right .slant {
+    width: 75%;
+    height: 75%;
+    left: 40px;
+    top: 40px;
+  }
+  .header .right img {
+    width: 300px;
+    height: 200px;
+    top: 20%;
+    left: 30px;
+  }
 }/*# sourceMappingURL=Header.module.css.map */

@@ -62,4 +62,30 @@
 }
 .facultyDiv .main .imgDiv:hover .text {
   visibility: visible;
+}
+
+@media screen and (max-width: 600px) {
+  .facultyDiv {
+    height: auto;
+  }
+  .facultyDiv .heading {
+    margin-bottom: 30px;
+  }
+  .facultyDiv .heading span {
+    font-size: 30px;
+  }
+  .facultyDiv .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .facultyDiv .main .imgDiv {
+    width: 200px;
+    height: 250px;
+    margin: 30px;
+  }
+  .facultyDiv .main .imgDiv .text span.des {
+    font-size: 15px;
+    margin: 15px;
+  }
 }/*# sourceMappingURL=Faculty.module.css.map */

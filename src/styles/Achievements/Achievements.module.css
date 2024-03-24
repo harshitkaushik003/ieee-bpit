@@ -23,4 +23,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .mainBox {
+    height: auto;
+  }
+  .mainBox .heading span {
+    font-size: 25px;
+  }
+  .mainBox .box {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=Achievements.module.css.map */

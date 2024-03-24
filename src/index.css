@@ -19,10 +19,22 @@ body {
 }
 #root{
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media screen and (max-width: 600px) {
+  body{
+    min-width: 100vw;
+    overflow-x: hidden;
+  }
+  body #root{
+    overflow-x: hidden;
+    width: 100vw;
+  }
 }

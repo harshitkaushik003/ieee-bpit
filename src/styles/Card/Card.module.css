@@ -40,4 +40,17 @@
 
 .card:hover {
   box-shadow: 4px 4px #323EAE;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 250px;
+    height: 250px;
+  }
+  .card .contentDiv span.name {
+    font-size: 20px;
+  }
+  .card .contentDiv span.award {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=Card.module.css.map */

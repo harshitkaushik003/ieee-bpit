@@ -58,4 +58,30 @@
   to {
     transform: translateX(-250%);
   }
+}
+@media screen and (max-width: 600px) {
+  .sponsors .heading {
+    margin-top: 20px;
+  }
+  .sponsors .heading span {
+    font-size: 25px;
+  }
+  .sponsors .sponsorIconsDiv .scrollDiv {
+    animation-duration: 20s;
+  }
+  .sponsors .sponsorIconsDiv .scrollDiv .imgDiv {
+    flex: 1;
+    min-width: 100%;
+  }
+  .sponsors .sponsorIconsDiv .scrollDiv .imgDiv .sponsorImg {
+    min-width: 100%;
+  }
+  @keyframes scroll {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-770%);
+    }
+  }
 }/*# sourceMappingURL=Sponsors.module.css.map */

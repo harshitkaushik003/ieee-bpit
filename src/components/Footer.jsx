@@ -1,3 +1,4 @@
+//
 import React from 'react'
 import "../styles/Footer/Footer.css";
 const Footer = () => {
@@ -43,7 +44,7 @@ const Footer = () => {
         </div>
         </div>
         <div className='copy'>
-        <p>© IEEE - BPIT | Made By K.A</p>
+        {/* <p>© IEEE - BPIT | Made By K.A</p> */}
         </div>
     </div>
   )

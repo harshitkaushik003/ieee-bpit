@@ -4,6 +4,8 @@ import styles from '../styles/Home/Home.module.css';
 import About from '../components/About';
 import Sponsors from '../components/Sponsors';
 import Faculty from '../components/Faculty';
+import Achievements from '../components/Achievements';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -12,6 +14,7 @@ const Home = () => {
       <About/>
       <Sponsors/>
       <Faculty/>
+      <Achievements/>
     </div>
   )
 }

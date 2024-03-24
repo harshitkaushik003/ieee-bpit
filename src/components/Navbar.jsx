@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../styles/Navbar/Navbar.module.css';
 import myImage from "../assets/logo.png";
 import { Outlet } from 'react-router-dom';
+import Footer from './Footer';
 const Navbar = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const Navbar = () => {
         </div>
     </div>
     <Outlet/>
+    {/* <Footer/> */}
     </>
     
   )

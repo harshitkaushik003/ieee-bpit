@@ -1,0 +1,142 @@
+.footer{
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding:50px 100px;
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.container .sec{
+    margin-right: 30px;
+}
+.container h1:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.footer p{
+    color: #999;
+}
+.container h1{
+    position:relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.fabout{
+    width: 40%;
+}
+.social{
+    margin-top: 20px;
+    display: flex;
+}
+.social li{
+    list-style: none;
+}
+.social li a{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.social li a:hover{
+    background: #f00;
+}
+.social li a i{
+    font-size: 24px;
+    color: #fff;
+}
+
+
+.links{
+    position: relative;
+    width: 25%;
+}
+.links ul{
+    list-style: none;
+}
+.links ul li .a{
+    text-decoration: none;
+    color: #999;
+    margin-bottom: 10px;
+}
+.links ul li .a:hover{
+    color: #fff;
+}
+.whi{
+    color: #999;
+    padding-right: 10px;
+}
+.fcontact{
+    width: calc(35%-60px);
+    margin-right: 0!important;
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.fcontact .info{
+    font-size: 20px;
+    margin: 10px 0px;
+    position: relative;
+}
+.fcontact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.fcontact .info li span{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.fcontact .info li a{
+    color: #999;
+    text-decoration: none;
+}
+.fcontact .info li a:hover{
+    color: #fff;
+}
+.copy{
+    width: 100%;
+    background: #181818;
+    color: #999;
+    text-align: center;
+    margin-top: 10px;
+    padding:10px 100px ;
+}
+
+@media screen and (max-width:970px) {
+    .footer{
+        padding: 40px;
+    }
+    .container .sec{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .fabout{
+        width: 100%;
+    }
+    .links{
+        width: 40%;
+    }
+    .copy{
+        padding: 8px 40px;
+    }
+}

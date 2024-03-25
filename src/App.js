@@ -1,6 +1,7 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./Pages/Home";
 import Navbar from "./components/Navbar";
+import Team from "./Pages/Team";
 
 function App() {
   const router = createBrowserRouter([
@@ -8,6 +9,9 @@ function App() {
       {
         index:true,
         element:<Home/>
+      },{
+        path: 'team',
+        element: <Team/>
       }
     ]}
   ])

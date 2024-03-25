@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.header {
+  width: 100vw;
+  height: 70vh;
+  background-image: linear-gradient(rgba(65, 76, 172, 0.5215686275), rgba(50, 62, 174, 0.5333333333)), url("../../assets/ERISIAR.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .heading {
+  font-size: 100px;
+  color: white;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.header .heading span {
+  border-bottom: 4px solid white;
+}/*# sourceMappingURL=TeamHeader.module.css.map */

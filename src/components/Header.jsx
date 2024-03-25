@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import styles from "../styles/Header/Header.module.css"
 import myImage from '../assets/team.jpg';
 import Button from './Button';
+import { Link } from 'react-router-dom';
 const Header = () => {
   let [imgStyle, setImgStyle] = useState({opacity: 0});
 
@@ -21,7 +22,9 @@ const Header = () => {
             <span className={styles.text}>
               Technology shapes the world
             </span>
-            <Button title={"Apply Now"} color={"#ffc801"}/>
+            <Link className='link' to={"https://forms.gle/Y86fJVdZZ9mCPnT2A"} target='_blank'>
+              <Button title={"Apply Now"} color={"#ffc801"}/>
+            </Link>
           </div>
           
         </div>

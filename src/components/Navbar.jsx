@@ -9,13 +9,15 @@ const Navbar = () => {
     <div className={styles.nav}>
         <div className={styles.logo}>
             <img src={myImage} alt="" />
-            <span>IEEE BPIT</span>
+            <Link className='link' to={"/"}>
+              <span>IEEE BPIT</span>
+            </Link>
         </div>
         <div className={styles.content}>
             <div className={styles.text}><span>Events</span></div>
             <Link className='link' to={"/team"}><div className={styles.text}><span>Team</span></div></Link>
             <div className={styles.text}><span>Projects</span></div>
-            <div className={styles.text}><span>Contact</span></div>
+            {/* <div className={styles.text}><span>Contact</span></div> */}
         </div>
     </div>
     <Outlet/>

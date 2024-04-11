@@ -1,4 +1,8 @@
 .teamMain {
   width: 100vw;
-  height: 90vh;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=TeamMain.module.css.map */

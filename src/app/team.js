@@ -5,11 +5,9 @@ import jt from "../assets/team/jai__t.jpeg";
 import ka from "../assets/team/K_a.jpg";
 import hk from "../assets/team/harshit.jpg";
 import hb from "../assets/team/himaaansuuuuuuuu.jpeg";
-import ns from "../assets/team/nakul.jpg";
 import sk from "../assets/team/Sachin.jpg";
 import aryan from "../assets/team/Aryan.jpg";
 import yash_c from "../assets/team/Yash_c.jpg";
-import amisha from "../assets/team/Amisha.jpg";
 import mansimar from "../assets/team/Mansimar.jpg";
 import harsh from "../assets/team/Harsh.jpg";
 import arpan from "../assets/team/Arpan.jpg";
@@ -76,13 +74,6 @@ export const team = [
         ig: "https://instagram.com/wheres.himanshu?igshid=ZDdkNTZiNTM="
     },
     {
-        name: "Nakul",
-        position: "Head Of Advertising And Marketing",
-        img: ns,
-        ln: "ttps://www.linkedin.com/in/nakul-singh-506048205?trk=contact-info",
-        ig: "https://instagram.com/nakullsinghh?igshid=ZDdkNTZiNTM="
-    },
-    {
         name: "Sachin",
         position: "Social Media Head",
         img: sk,
@@ -102,13 +93,6 @@ export const team = [
         img: yash_c,
         ln:"https://www.linkedin.com/in/yash-choudhary-58167b22a/",
         ig: "https://instagram.com/yashch_18?igshid=OGQ5ZDc2ODk2ZA=="
-    },
-    {
-        name: "Amisha",
-        position: "Head Of Content And Graphic Design",
-        img: amisha,
-        ln: "https://www.linkedin.com/in/amisha-gupta-b2462a229",
-        ig: "https://instagram.com/amisha.gupta157?igshid=MzMyNGUyNmU2YQ=="
     },
     {
         name: "Mansimar",
@@ -167,6 +151,13 @@ export const team = [
         ig: "https://instagram.com/vasishthtarushi?igshid=NGVhN2U2NjQ0Yg=="
     },
     {
+        name: "Himanshi",
+        position: "Event Coordinator",
+        img: himanshi,
+        ln: "https://www.linkedin.com/in/himanshi-negi-b860a822b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        ig: "https://instagram.com/the_twin_363?igshid=OGQ5ZDc2ODk2ZA"
+    },
+    {
         name: "Pooja",
         position: "Event Coordinator",
         img: pooja,
@@ -179,13 +170,6 @@ export const team = [
         img: prakriti,
         ln: "https://www.linkedin.com/in/prakriti-lohumi-s0010172",
         ig: "https://instagram.com/prakritilohumi"
-    },
-    {
-        name: "Himanshi",
-        position: "Event Coordinator",
-        img: himanshi,
-        ln: "https://www.linkedin.com/in/himanshi-negi-b860a822b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        ig: "https://instagram.com/the_twin_363?igshid=OGQ5ZDc2ODk2ZA"
     },
     {
         name: "Shruti",

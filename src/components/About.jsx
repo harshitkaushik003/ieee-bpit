@@ -1,14 +1,27 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from "../styles/About/About.module.css";
 
 const About = () => {
+    const [style, setStyle] = useState({opacity: 0, transform: 'translateY(100px)'});
+    function handleScroll(){
+        const scrollPosition = window.scrollY;
+        if(scrollPosition > 450){
+            setStyle({
+                opacity: '1',
+                transform: 'translateY(0)'
+            })
+        } 
+    }
+    useEffect(()=>{
+        window.addEventListener('scroll', handleScroll);
+    }, [])
   return (
     <div className={styles.about}>
         <div className={styles.left}>
             <div className={styles.heading}>
                 <span>About</span>
             </div>
-            <div className={styles.content}>
+            <div className={styles.content} style={style}>
                 <p>
                 IEEE BPIT is a Dynamic Technical Society affiliated with Bhagwan Parshuram Institute of Technology. Our mission is to provide students with invaluable technical knowledge to prepare them for future endeavors. We encourage participation in various technical and non-technical events to hone their skills and expand their knowledge.
                 </p>

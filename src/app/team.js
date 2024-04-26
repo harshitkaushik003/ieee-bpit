@@ -53,28 +53,28 @@ export const team = [
     },
     
     {
-        name: "KR$NA",
+        name: "Krishna Aggarwal",
         position: "Join Sectretary",
         img: ka,
         ln: "https://www.linkedin.com/in/krishna-aggarwal-75470425a",
         ig: "https://www.instagram.com/copyright_k_a/"
     },
     {
-        name: "Harshit",
+        name: "Harshit Kaushik",
         position: "Web Master",
         img: hk,
         ln: "https://www.linkedin.com/in/harshit-kaushik-077716236",
         ig: "https://instagram.com/kaushikharshit5?igshid=ZDdkNTZiNTM="
     },
     {
-        name: "Himanshu",
+        name: "Himanshu Bhenwal",
         position: "Head of Operations",
         img: hb,
         ln:"https://www.linkedin.com/in/himanshu-b-537253128",
         ig: "https://instagram.com/wheres.himanshu?igshid=ZDdkNTZiNTM="
     },
     {
-        name: "Sachin",
+        name: "Sachin Kumar",
         position: "Social Media Head",
         img: sk,
         ln: "https://www.linkedin.com/in/sachin-kumar-123058240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",

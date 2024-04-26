@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 .facultyDiv {
-  margin-bottom: 40px;
   width: 100vw;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   padding-top: 20px;
+  background-color: rgba(146, 177, 240, 0.1843137255);
 }
 .facultyDiv .heading {
   width: 100%;
